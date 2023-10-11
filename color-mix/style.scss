@@ -1,35 +1,34 @@
-// Before
-$base-color: #2898e2;
+/* Before */
+$base-color    : #2898e2;
 
 $color-light   : lighten($base-color, 40%);
 $color-dark    : darken($base-color, 15%);
 $color-opacity : transparentize($base-color, 0.5);
 $color-mix     : mix($base-color, red, 50%);
 
-// After
-// :root {
-//   --base-color: #2898e2;
-//   --color-light: color-mix(in srgb, var(--base-color) 100%, white 40%);
-//   --color-dark: color-mix(in srgb, var(--base-color) 100%, black 15%);
-//   --color-opacity: color-mix(in srgb, var(--base-color) 50%, rgba(0,0,0,0) 50%);
-// }
+/* After */
+:root {
+  --base-color    : #2898e2;
+  --color-light   : color-mix(in srgb, var(--base-color) 20%, white 100%);
+  --color-dark    : color-mix(in srgb, var(--base-color) 80%, black 30%);
+  --color-opacity : color-mix(in srgb, var(--base-color) 50%, rgba(0,0,0,0) 50%);
+  --color-mix     : color-mix(in srgb, var(--base-color) 50%, red 50%);
+}
 
 .color-100 {
   background: $color-light;
-  // background: var(--color-light);
-  // background: red;
 }
 .color-200 {
   background: $color-dark;
 }
 .color-300 {
-  background: $color-transparent;
+  background: $color-opacity;
 }
 .color-400 {
   background: $color-mix;
 }
 
-// With HSL
+/* With HSL */
 // :root {
 //   --base-color-hue: 200;
 // }
@@ -56,7 +55,7 @@ $color-mix     : mix($base-color, red, 50%);
 // }
 
 
-// Now
+/* Now */
 // :root {
 //   --base-color: #2898e2;
 // }
