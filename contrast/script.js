@@ -1,3 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if (CSS.supports('not (color: color-contrast(red vs black, white))')) {
   const elements = document.querySelectorAll('.contrast');
   elements.forEach(element => {
