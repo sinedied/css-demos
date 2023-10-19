@@ -1,3 +1,14 @@
+## Demo order
+- has
+- color-mix
+- container-queries
+- aspect-ratio
+- focus-visible
+- sbr-demo
+- https://webaim.org/resources/contrastchecker/
+- contrast
+
+
 
 On ne va pas se mentir: quand on commencé notre aventure dans le développement web il y a 15 ans, avec le CSS c'était pas vraiment le grand amour. Malgré l'arrivée des variables et des nouveaux systèmes de layouts, l'enthousiasme n'était pas au rendez-vous, et on ne l'utilisait toujours que par obligation. En 2023, on a décidé de lui donner une nouvelle chance: comme pour le JavaScript, les nouveautés de CSS ont considérablement changé le langage ces dernières années, et on a été agréablement surpris!
 
