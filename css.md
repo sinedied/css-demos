@@ -1,6 +1,6 @@
 ## Demo order
 - has
-- color-mix
+- color-mix => https://codepen.io/sinedied/pen/vYbBGNz?editors=1100
 - container-queries
 - aspect-ratio
 - focus-visible
